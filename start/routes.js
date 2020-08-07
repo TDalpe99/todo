@@ -1,5 +1,7 @@
 'use strict'
 
+const { route } = require('@adonisjs/framework/src/Route/Manager')
+
 /*
 |--------------------------------------------------------------------------
 | Routes
@@ -17,3 +19,4 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+Route.on("/thomas").render("Thomas");
