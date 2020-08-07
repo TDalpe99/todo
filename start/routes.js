@@ -19,4 +19,4 @@ const { route } = require('@adonisjs/framework/src/Route/Manager')
 const Route = use('Route')
 
 Route.on('/').render('welcome');
-Route.get('thomas').render('thomas');
+Route.on('thomas').render('thomas');
